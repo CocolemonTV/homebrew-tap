@@ -15,9 +15,9 @@ cask "pureblood-and-prejudice" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :ventura
 
-  app "Pureblood & Prejudice.app"
+  app "pureblood-and-prejudice.app", target: "Pureblood & Prejudice.app"
 
   zap trash: [
     "~/Library/Application Support/Pureblood-and-Prejudice",
