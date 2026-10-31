@@ -1,9 +1,9 @@
 cask "pureblood-and-prejudice" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.3.1"
-  sha256 arm:   "0e8b3f4b0ea2321f010080342b7514d822fc17093490b9a4aaeb9c80e763c63b",
-         intel: "38442c1431ca4ac519afe8bd727721dbee1c59962d65e54cb176eb642f719d5a"
+  version "0.3.2"
+  sha256 arm:   "45b5899cca87f8a5cc718cae9a1d749a20f6435a845ac512e95823da1e6a6529",
+         intel: "3e70c1de2118c13670271ee7d897430d56dcf662fafdb0bc0ac0e0478aeac34c"
 
   url "https://github.com/CocolemonTV/pureblood-and-prejudice-releases/releases/download/v#{version}/Pureblood-and-Prejudice-#{version}-mac-#{arch}.dmg"
   name "Pureblood & Prejudice"
